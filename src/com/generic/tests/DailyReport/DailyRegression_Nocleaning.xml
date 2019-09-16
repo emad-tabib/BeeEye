@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Regression" parallel="tests" thread-count="1" data-provider-thread-count="1">
+
+	<test name="Login Regression">
+		<parameter name="browserName" value="chrome"></parameter>
+		<classes>
+			<class name="com.generic.tests.DailyReport.DailyReportBase" />
+		</classes>
+	</test><!-- Test -->
+
+
+</suite> <!-- Suite -->
