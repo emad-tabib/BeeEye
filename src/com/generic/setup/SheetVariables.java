@@ -5,7 +5,10 @@ public class SheetVariables {
 	public static final String users = "users";
 	
 	//SheetNames
-    public static final String loginSheet = "DailyReportRegression";
+    public static final String loginSheet = "LoginRegression";      //BI
+    public static final String DashboardSheet = "DashboardRegression"; //BI
+    
+    
     public static final String RunnersRegressionSheet = "SetupRunners";
 	public static final String BrowsersListingSheet = "SetupBrowsers";
 	
@@ -19,8 +22,8 @@ public class SheetVariables {
 	   
 	
     //Test Case id
-    public static final String DailyReportTestCaseId = "Daily report generator";
-
+    public static final String LoginCaseId = "Login";     //BI
+    public static final String DashboardCaseId = "Dashboard"; //BI 
 
 
 

@@ -393,7 +393,6 @@ public class Common extends SelTestCase {
 		int userName = 1;
 		int name = 2;
 		int password = 3;
-		int plants = 4;
 
 		for (int row = 1; row < data.length; row++) {
 			LinkedHashMap<String, Object> user = new LinkedHashMap<>();
@@ -401,7 +400,6 @@ public class Common extends SelTestCase {
 			user.put((String) data[header][userName], data[row][userName]);
 			user.put((String) data[header][name], data[row][name]);
 			user.put((String) data[header][password], data[row][password]);
-			user.put((String) data[header][plants], data[row][plants]);
 			
 			users.put((String) data[row][userName], user);
 		}
